@@ -1,0 +1,65 @@
+<div id="cloudpaymentsPage">
+	<div class="bg">
+	</div>
+	<div class="cloudpaymentsBlock">
+		<div class="fundName">
+			<h1 class="nameFund m-0">Название</h1>
+			<p class="descriptionFund m-0 p-0">
+				 Благотворительный Фонд
+			</p>
+		</div>
+		<h2 class="todoPage">Здравствуйте! Вы собираетесь сделать пожертвование в пользу нашего благотворительного Фонда.</h2>
+		<div class="subscribe-block">
+			<h3>Тип пожертвования</h3>
+			<div class="input">
+ <input type="radio" name="subscribe" id="subscribeOne" value="One"> <label for="subscribeOne" class="radio">Разовое</label> <input type="radio" name="subscribe" id="subscribeAll" value="Month" checked=""> <label for="subscribeAll" class="radio">Ежемесячное</label>
+			</div>
+ <br>
+		</div>
+		<p class="subscribe-block-text">
+			 Ежемесячное пожертвование раз в месяц списывается с банковской карты. В любой момент вы сможете отключить его. Для этого Вам следует написать на почту <a href="mailto:info@fond68.ru">info@fond68.ru</a>
+		</p>
+		<div class="amount-block">
+			<h3>Сумма пожертвования</h3>
+			<div class="input">
+ <input type="radio" name="amount" id="amount100" value="100"> <label for="amount100">100</label> <input type="radio" name="amount" id="amount200" value="200"> <label for="amount200">200</label> <input type="radio" name="amount" id="amount500" value="500"> <label for="amount500">500</label> <input type="radio" name="amount" id="amount750" value="750" checked=""> <label for="amount750">750</label> <input type="radio" name="amount" id="amount1000" value="1000"> <label for="amount1000">1000</label> <input type="radio" name="amount" id="amount1500" value="1500"> <label for="amount1500">1500</label> <input type="radio" name="amount" id="amount2000" value="2000"> <label for="amount2000">2000</label> <input type="radio" name="amount" id="amount3000" value="3000"> <label for="amount3000">3000</label> <input type="radio" name="amount" id="amount5000" value="5000"> <label for="amount5000">5000</label> <input type="radio" name="amount" id="amount10000" value="10000"> <label for="amount10000">10000</label> <input type="radio" name="amount" id="amountCustom">
+<input type="number" id="amountCustomInput" placeholder="Другая сумма" value="">
+			</div>
+		</div>
+		<div class="donorInfo">
+			<div class="donorFIO">
+				<h3>Имя и фамилия</h3>
+				<div class="input">
+ <input type="text" id="donorFirstName" required="" value="" placeholder="Введите ваше имя"> <input type="text" id="donorLastName" required="" value="" placeholder="Введите вашу фамилию">
+				</div>
+			</div>
+			<div class="donorContact">
+				<h3>Контактная информация</h3>
+				<div class="input">
+ <input type="tel" id="donorTell" required="" value="" placeholder="Введите ваш номер телефона" style="font-size: 15px;"> <input type="email" id="donorMail" required="" value="" placeholder="Введите ваш email"> <br>
+					 <!-- <a href="#" title="Зачем указывать телефон?">Зачем указывать телефон?</a> -->
+				</div>
+			</div>
+ <button type="button" class="btn" data-toggle="tooltip" data-placement="bottom" title="Номер вашего телефона нужен, чтобы мы могли дополнительно подтвердить вашу личность. Мы не передаем ваши контактные данные сторонним организациям и не отправляем нежелательные рассылки." onclick="alert('Номер вашего телефона нужен, чтобы мы могли дополнительно подтвердить вашу личность. Мы не передаем ваши контактные данные сторонним организациям и не отправляем нежелательные рассылки.')">
+			Зачем указывать телефон? </button>
+		</div>
+		<div class="rulesBlock">
+ <input type="checkbox" id="rulesOferta"> <label for="rulesOferta">
+			Я принимаю условия <a target="_black" href="https://fond68.ru/upload/helpMoney/Dogovor_oferti.pdf">Договора о благотворительном пожертвовании (публичная оферта)</a> <br>
+			<p>
+				 Пожалуйста, подтвердите согласие
+			</p>
+ </label> <br>
+ <input type="checkbox" id="rulesConfidencial"> <label for="rulesConfidencial">
+			Я Предоставляя свои персональные данные, выражаю свое согласие на их обработку, а так же подтверждаю ознакомление с условиями <a href="/company/processing-data/" target="_blank" rel="noopener noreferrer"> Политики БФ “Преодоление” в области обработки и обеспечения безопасности персональных данных</a> <br>
+			<p>
+				 Пожалуйста, подтвердите согласие
+			</p>
+ </label> <br>
+ <input type="checkbox" id="sendNews" checked=""> <label for="sendNews" style="display: none;">Я хочу быть в курсе всех новостей</label>
+		</div>
+		<div class="checkout-btn">
+ <button id="checkout">Продолжить</button>
+		</div>
+	</div>
+</div>

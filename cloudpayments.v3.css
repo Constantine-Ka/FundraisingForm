@@ -1,0 +1,459 @@
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+#cloudpaymentsPage {
+  position: relative;
+  font-family: 'Comfortaa', cursive;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-top: -270px;
+  margin-bottom: 10px;
+  justify-content: center;
+  display: flex;
+}
+#cloudpaymentsPage .bg {
+  width: 100vw;
+  position: absolute;
+  height: 550px;
+  background-color: #59ba61;
+  border-radius: 80px;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .bg {
+    height: 50vh;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock {
+  position: relative;
+  margin-top: 170px;
+  display: block;
+  width: 1183px;
+  background-color: #f8f8f8;
+  border-radius: 76px;
+  padding: 59px;
+}
+#cloudpaymentsPage .cloudpaymentsBlock h3 {
+  width: 37%;
+  align-self: center;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  color: #000;
+  margin: 0;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock h3 {
+    display: none;
+  }
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock {
+    padding: 21px;
+    border-radius: 38px;
+  }
+}
+@media (max-width: 1200px) {
+  #cloudpaymentsPage .cloudpaymentsBlock {
+    width: 95vw;
+    margin-top: 225px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .fundName {
+  margin: 41px 0;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .fundName {
+    margin-top: -120px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .fundName .nameFund {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 56px;
+  color: #000;
+	margin-bottom:0;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .fundName .nameFund {
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .fundName .descriptionFund {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 7px;
+	margin-bottom:0;
+  color: #000;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .fundName .descriptionFund {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .todoPage {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 27px;
+  color: #817c7c;
+  margin-bottom: 130px;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .todoPage {
+    display: none;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .subscribe-block {
+  display: flex;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input {
+  width: 67%;
+  height: 60px;
+  background: #e3e1e1;
+  border-radius: 35px;
+  display: flex;
+}
+@media (max-width: 1200px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input {
+    width: 100%;
+  }
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input {
+    margin-top: 0;
+    height: 38px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input input {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input input:checked + label {
+  align-self: center;
+  width: 50%;
+  height: 60px;
+  background: #59ba61;
+  align-content: space-between;
+  border-radius: 30px;
+  color: #fff;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input input:checked + label {
+    height: 38px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input label {
+  align-content: space-between;
+  width: 50%;
+  text-align: center;
+  padding: 17px;
+  font-size: 24px;
+  line-height: 27px;
+  color: #817c7c;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .subscribe-block .input label {
+    font-size: 18px;
+    line-height: 11px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock p.subscribe-block-text {
+  width: 58%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 14px;
+  justify-content: flex-end;
+  color: #817c7c;
+  margin-left: 40%;
+  margin-top: 11px;
+  text-align: j;
+}
+@media (max-width: 1200px) {
+  #cloudpaymentsPage .cloudpaymentsBlock p.subscribe-block-text {
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock p.subscribe-block-text a {
+  color: #59ba61;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block {
+  display: flex;
+  margin-bottom: 68px;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input {
+  width: 680px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input input[type="radio"] {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  border: 0;
+  overflow: hidden;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input input[type="radio"]:checked + label {
+  align-self: center;
+  width: 98px;
+  height: 39px;
+  background: #59ba61;
+  border-radius: 30px;
+  color: #fff;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input input[type="radio"]:checked + label.amountCustomLabel {
+  align-self: center;
+  width: 209px;
+  height: 39px;
+  background: #59ba61;
+  border-radius: 30px;
+  color: #fff;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input label,
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input #amountCustomInput {
+  width: 96px;
+  height: 39px;
+  text-align: center;
+  align-self: center;
+  padding: 9.5px 0;
+  background: #e3e1e1;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  margin: 7px;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input label::after,
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input #amountCustomInput::after {
+  content: ' ₽';
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .amount-block .input label,
+  #cloudpaymentsPage .cloudpaymentsBlock .amount-block .input #amountCustomInput {
+    margin: 3px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input #amountCustomInput {
+  width: 209px;
+  text-align: left;
+  padding: 13px 15px;
+  margin: 0;
+  width: 210px;
+  height: 39px;
+  font-size: 13px;
+  line-height: 14px;
+  color: #817c7c;
+  margin: 7px;
+  border: none;
+  -moz-appearance: textfield;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .amount-block .input #amountCustomInput {
+    margin: 3px;
+    width: 200px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .amount-block .input #amountCustomInput::after {
+  content: ' ₽';
+  width: 10px;
+  height: 10px;
+  background: #ff6347;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo {
+  display: none;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorFIO,
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorContact {
+  display: flex;
+  margin: 34px 0;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorFIO,
+  #cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorContact {
+    margin: 0;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorFIO h3,
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorContact h3 {
+  width: 37%;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorFIO .input,
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorContact .input {
+  width: 665px;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorFIO .input input,
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorContact .input input {
+  background: #e3e1e1;
+  border: none;
+  border-radius: 35px;
+  width: 315px;
+  text-align: center;
+  padding: 13px 15px;
+  margin: 7px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 20px;
+  color: #817c7c;
+	font-family: 'Comfortaa', cursive;
+  -moz-appearance: textfield;
+}
+@media (max-width: 1200px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorFIO .input input,
+  #cloudpaymentsPage .cloudpaymentsBlock .donorInfo .donorContact .input input {
+    width: 100%;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo button {
+  margin-top: -58px;
+  margin-left: 40%;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+	background:#f8f8f8;
+  color: #59ba61;
+  border: none !important;
+}
+@media (max-width: 1200px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .donorInfo button {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .donorInfo button {
+    margin-top: -16px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .donorInfo button:hover {
+  cursor: default;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .rulesBlock {
+  margin: 77px 70px;
+  display: none;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .rulesBlock {
+    margin: 3px 0 10px 25px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .rulesBlock input {
+  position: absolute !important;
+  height: 0px;
+  width: 0px;
+  border: 0;
+  overflow: hidden;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .rulesBlock input:checked + label::before {
+  align-self: center;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: #59ba61;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .rulesBlock input:checked + label::before {
+    width: 12px;
+    height: 12px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .rulesBlock label {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0;
+  color: #000;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .rulesBlock label {
+    font-size: 11px;
+    line-height: 12px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .rulesBlock label p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #817c7c;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .rulesBlock label p {
+    display: none;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .rulesBlock label a {
+  color: #59ba61;
+  text-decoration: none;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .rulesBlock label::before {
+  position: absolute;
+  display: inline-block;
+  align-self: center;
+  margin-left: -70px;
+  top: 25%;
+  content: '';
+  border-radius: 30px;
+  color: #fff;
+  width: 49px;
+  height: 49px;
+  border-radius: 50%;
+  background: #e5e5e5;
+}
+@media (max-width: 790px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .rulesBlock label::before {
+    width: 22px;
+    height: 22px;
+    margin-left: -20px;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .checkout-btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+#cloudpaymentsPage .cloudpaymentsBlock .checkout-btn button#checkout, 
+.checkout-btn button#checkout {
+  width: 363px;
+  height: 61px;
+  border-radius: 50px;
+  background: #e83a85;
+  color: #fff;
+  font-size: 24px;
+  line-height: 27px;
+  font-family: Comfortaa;
+  font-style: normal;
+  font-weight: normal;
+  border: 2px solid #fff;
+}
+@media (max-width: 1200px) {
+  #cloudpaymentsPage .cloudpaymentsBlock .checkout-btn button#checkout {
+    width: 100%;
+  }
+}
+#cloudpaymentsPage .cloudpaymentsBlock .checkout-btn button#checkout:hover {
+  background: #ef75aa;
+}
